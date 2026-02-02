@@ -16,6 +16,7 @@ const translations = {
       about: 'Over ons',
       contact: 'Contact',
       download: 'Download',
+      langLabel: 'Taal',
     },
     features: {
       label: 'Features',
@@ -68,6 +69,7 @@ const translations = {
       message: 'Bericht',
       messagePlaceholder: 'Vertel ons je idee...',
       submit: 'Verstuur',
+      success: 'Je bericht is succesvol verzonden. We nemen zo snel mogelijk contact op.',
     },
     download: {
       title: 'Klaar om te ontspannen?',
@@ -77,7 +79,7 @@ const translations = {
       tagline: 'Jouw geluid voor focus of rust.',
       app: 'App',
       info: 'Info',
-      copyright: '© 2024 Mello. Gemaakt met ❤️ in Nederland.',
+      copyright: '© 2026 Mello. Gemaakt met liefde in Nederland.',
     },
     appStore: { alt: 'Download op de App Store' },
   },
@@ -94,6 +96,7 @@ const translations = {
       about: 'About us',
       contact: 'Contact',
       download: 'Download',
+      langLabel: 'Language',
     },
     features: {
       label: 'Features',
@@ -146,6 +149,7 @@ const translations = {
       message: 'Message',
       messagePlaceholder: 'Tell us your idea...',
       submit: 'Send',
+      success: 'Your message was sent successfully. We\'ll get back to you as soon as possible.',
     },
     download: {
       title: 'Ready to relax?',
@@ -155,7 +159,7 @@ const translations = {
       tagline: 'Your sound for focus or calm.',
       app: 'App',
       info: 'Info',
-      copyright: '© 2024 Mello. Made with ❤️ in the Netherlands.',
+      copyright: '© 2026 Mello. Made with love in the Netherlands.',
     },
     appStore: { alt: 'Download on the App Store' },
   },
@@ -172,6 +176,7 @@ const translations = {
       about: 'Sobre nosotros',
       contact: 'Contacto',
       download: 'Descargar',
+      langLabel: 'Idioma',
     },
     features: {
       label: 'Características',
@@ -224,6 +229,7 @@ const translations = {
       message: 'Mensaje',
       messagePlaceholder: 'Cuéntanos tu idea...',
       submit: 'Enviar',
+      success: 'Tu mensaje se ha enviado correctamente. Te responderemos lo antes posible.',
     },
     download: {
       title: '¿Listo para relajarte?',
@@ -233,7 +239,7 @@ const translations = {
       tagline: 'Tu sonido para concentrarte o relajarte.',
       app: 'App',
       info: 'Info',
-      copyright: '© 2024 Mello. Hecho con ❤️ en Países Bajos.',
+      copyright: '© 2026 Mello. Hecho con amor en Países Bajos.',
     },
     appStore: { alt: 'Descargar en la App Store' },
   },
@@ -250,6 +256,7 @@ const translations = {
       about: 'À propos',
       contact: 'Contact',
       download: 'Télécharger',
+      langLabel: 'Langue',
     },
     features: {
       label: 'Fonctionnalités',
@@ -302,6 +309,7 @@ const translations = {
       message: 'Message',
       messagePlaceholder: 'Dites-nous votre idée...',
       submit: 'Envoyer',
+      success: 'Votre message a bien été envoyé. Nous vous répondrons dès que possible.',
     },
     download: {
       title: 'Prêt à vous détendre ?',
@@ -311,7 +319,7 @@ const translations = {
       tagline: 'Votre son pour vous concentrer ou vous détendre.',
       app: 'App',
       info: 'Info',
-      copyright: '© 2024 Mello. Fait avec ❤️ aux Pays-Bas.',
+      copyright: '© 2026 Mello. Fait avec amour aux Pays-Bas.',
     },
     appStore: { alt: 'Télécharger sur l\'App Store' },
   },
@@ -328,6 +336,7 @@ const translations = {
       about: 'Chi siamo',
       contact: 'Contatti',
       download: 'Scarica',
+      langLabel: 'Lingua',
     },
     features: {
       label: 'Funzionalità',
@@ -380,6 +389,7 @@ const translations = {
       message: 'Messaggio',
       messagePlaceholder: 'Raccontaci la tua idea...',
       submit: 'Invia',
+      success: 'Il tuo messaggio è stato inviato con successo. Ti risponderemo al più presto.',
     },
     download: {
       title: 'Pronto a rilassarti?',
@@ -389,7 +399,7 @@ const translations = {
       tagline: 'Il tuo suono per concentrarti o rilassarti.',
       app: 'App',
       info: 'Info',
-      copyright: '© 2024 Mello. Fatto con ❤️ nei Paesi Bassi.',
+      copyright: '© 2026 Mello. Fatto con amore nei Paesi Bassi.',
     },
     appStore: { alt: 'Scarica su App Store' },
   },

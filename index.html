@@ -40,6 +40,16 @@
                 <a href="#about" class="nav-link" data-i18n="nav.about">Over ons</a>
                 <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
             </div>
+            <div class="nav-lang" role="group" aria-label="Taal">
+                <label for="nav-lang-select" class="visually-hidden" data-i18n="nav.langLabel">Taal</label>
+                <select id="nav-lang-select" class="nav-lang-select" aria-label="Taal">
+                    <option value="nl">NL</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="it">IT</option>
+                </select>
+            </div>
             <a href="#download" class="nav-cta" data-i18n="nav.download">Download</a>
         </nav>
     </header>
@@ -64,6 +74,7 @@
                 </div>
             </div>
             <div class="hero-mockup">
+                <img src="assets/blob.svg" alt="" class="hero-blob" aria-hidden="true">
                 <div class="mockup-glow"></div>
                 <img src="assets/mello-app.webp" alt="Mello app screenshot" class="mockup-image">
             </div>
@@ -81,28 +92,28 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon-wrapper">
-                        <span class="feature-icon">🎵</span>
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.sounds.title">Rustgevende geluiden</h3>
                     <p class="feature-description" data-i18n="features.sounds.desc">Van zachte regen tot oceaangolven, van knisperend haardvuur tot fluisterende wind.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon-wrapper">
-                        <span class="feature-icon">⏱️</span>
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.timer.title">Slaaptimer</h3>
                     <p class="feature-description" data-i18n="features.timer.desc">Val rustig in slaap met een zachte 30-seconden fade-out. Geen schrikken meer.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon-wrapper">
-                        <span class="feature-icon">❤️</span>
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.favorites.title">Favorieten</h3>
                     <p class="feature-description" data-i18n="features.favorites.desc">Bewaar je lievelingsgeluiden en vind ze direct terug. Jouw persoonlijke collectie.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon-wrapper">
-                        <span class="feature-icon">🎙️</span>
+                        <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 1 3 3v7a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>
                     </div>
                     <h3 class="feature-title" data-i18n="features.recordings.title">Eigen opnames</h3>
                     <p class="feature-description" data-i18n="features.recordings.desc">Neem je eigen geluiden op. De ventilator van thuis of je favoriete plek.</p>
@@ -117,7 +128,7 @@
             <div class="highlights-grid">
                 <div class="highlight">
                     <div class="highlight-icon-wrapper">
-                        <span class="highlight-icon">✨</span>
+                        <svg class="highlight-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-3.5 2.5L16 15l-4-2.5L8 15l1-4.5L6 8l4.5-1.5L12 2z"/></svg>
                     </div>
                     <div class="highlight-content">
                         <span class="highlight-title" data-i18n="highlights.free.title">Helemaal gratis</span>
@@ -126,7 +137,7 @@
                 </div>
                 <div class="highlight">
                     <div class="highlight-icon-wrapper">
-                        <span class="highlight-icon">🚫</span>
+                        <svg class="highlight-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>
                     </div>
                     <div class="highlight-content">
                         <span class="highlight-title" data-i18n="highlights.noAds.title">Geen reclames</span>
@@ -135,7 +146,7 @@
                 </div>
                 <div class="highlight">
                     <div class="highlight-icon-wrapper">
-                        <span class="highlight-icon">🌍</span>
+                        <svg class="highlight-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     </div>
                     <div class="highlight-content">
                         <span class="highlight-title" data-i18n="highlights.languages.title">5 talen</span>
@@ -144,7 +155,7 @@
                 </div>
                 <div class="highlight">
                     <div class="highlight-icon-wrapper">
-                        <span class="highlight-icon">🖼️</span>
+                        <svg class="highlight-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
                     </div>
                     <div class="highlight-content">
                         <span class="highlight-title" data-i18n="highlights.images.title">Sfeervolle beelden</span>
@@ -157,6 +168,7 @@
 
     <!-- About Section -->
     <section class="about" id="about">
+        <img src="assets/ster.svg" alt="" class="about-star" aria-hidden="true">
         <div class="container">
             <div class="about-card">
                 <div class="about-content">
@@ -183,13 +195,23 @@
                     <p class="contact-text" data-i18n="contact.text">Heb je een idee voor een nieuw geluid? Een suggestie voor een feature? Of gewoon feedback? We horen graag van je!</p>
                     <div class="contact-methods">
                         <a href="mailto:hello@mellosounds.app" class="contact-method">
-                            <span class="contact-method-icon">📧</span>
+                            <svg class="contact-method-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
                             <span class="contact-method-text">hello@mellosounds.app</span>
                         </a>
                     </div>
                 </div>
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <img src="assets/kraal.svg" alt="" class="contact-kraal" aria-hidden="true">
+                    <div class="form-success-message" id="form-success-message" role="status" aria-live="polite" hidden>
+                        <span class="form-success-icon">✓</span>
+                        <p class="form-success-text" data-i18n="form.success">Je bericht is succesvol verzonden. We nemen zo snel mogelijk contact op.</p>
+                    </div>
+                    <form class="contact-form" action="https://formspree.io/f/meeeybzq" method="POST">
+                        <!-- Honeypot: verborgen voor bezoekers, bots vullen dit vaak in -->
+                        <div class="form-honeypot-wrapper" aria-hidden="true">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" name="website" class="form-honeypot" tabindex="-1" autocomplete="off">
+                        </div>
                         <div class="form-group">
                             <label for="name" class="form-label" data-i18n="form.name">Naam</label>
                             <input type="text" id="name" name="name" class="form-input" data-i18n-placeholder="form.namePlaceholder" placeholder="Je naam" required>
@@ -200,7 +222,7 @@
                         </div>
                         <div class="form-group">
                             <label for="type" class="form-label" data-i18n="form.type">Type feedback</label>
-                            <select id="type" name="type" class="form-input form-select">
+                            <select id="type" name="type" class="form-input form-select" required>
                                 <option value="geluid" data-i18n="form.optionSound">Nieuw geluid idee</option>
                                 <option value="feature" data-i18n="form.optionFeature">Feature suggestie</option>
                                 <option value="bug" data-i18n="form.optionBug">Bug melden</option>
@@ -227,6 +249,7 @@
     <section class="download" id="download">
         <div class="container">
             <div class="download-card">
+                <img src="assets/blob2.svg" alt="" class="download-blob" aria-hidden="true">
                 <div class="download-content">
                     <h2 class="download-title" data-i18n="download.title">Klaar om te ontspannen?</h2>
                     <p class="download-subtitle" data-i18n="download.subtitle">Download Mello gratis op je iPhone of iPad en ontdek je moment van rust.</p>
@@ -240,6 +263,7 @@
 
     <!-- Footer -->
     <footer class="footer">
+        <img src="assets/kruis.svg" alt="" class="footer-kruis" aria-hidden="true">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
@@ -263,7 +287,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p class="copyright" data-i18n="footer.copyright">© 2024 Mello. Gemaakt met ❤️ in Nederland.</p>
+                <p class="copyright" data-i18n="footer.copyright">© 2026 Mello. Gemaakt met liefde in Nederland.</p>
             </div>
         </div>
     </footer>

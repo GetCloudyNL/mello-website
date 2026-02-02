@@ -57,11 +57,32 @@ function applyTranslations(locale) {
     });
     const tagline = getTranslation(t, 'hero.tagline');
     if (tagline) document.title = `Mello — ${tagline}`;
+    const langLabel = getTranslation(t, 'nav.langLabel');
+    const langEl = document.querySelector('.nav-lang');
+    if (langEl && langLabel) langEl.setAttribute('aria-label', langLabel);
+    updateLangSelector(locale);
+}
+
+function updateLangSelector(activeLocale) {
+    const select = document.getElementById('nav-lang-select');
+    if (select && SUPPORTED_LOCALES.includes(activeLocale)) select.value = activeLocale;
+}
+
+function initLangSelector() {
+    const select = document.getElementById('nav-lang-select');
+    if (!select) return;
+    select.addEventListener('change', () => {
+        const locale = select.value;
+        if (!SUPPORTED_LOCALES.includes(locale)) return;
+        if (typeof localStorage !== 'undefined') localStorage.setItem('mello-locale', locale);
+        applyTranslations(locale);
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const locale = getLocale();
     applyTranslations(locale);
+    initLangSelector();
     initHeaderScroll();
     initSmoothScroll();
     initScrollAnimations();
@@ -169,42 +190,55 @@ function initScrollAnimations() {
 }
 
 /**
- * Contact form handler
+ * Contact form handler – AJAX submit, succesbericht zonder pagina te verlaten
  */
 function initFormHandler() {
     const form = document.querySelector('.contact-form');
+    const successEl = document.getElementById('form-success-message');
     if (!form) return;
     
     form.addEventListener('submit', async (e) => {
-        const button = form.querySelector('.form-button');
-        const originalText = button.innerHTML;
+        e.preventDefault();
         
-        // Show loading state
+        const button = form.querySelector('.form-button');
+        const honeypot = form.querySelector('.form-honeypot');
+        
+        // Honeypot: als dit veld is ingevuld, is het waarschijnlijk een bot
+        if (honeypot && honeypot.value.trim() !== '') {
+            form.reset();
+            return;
+        }
+        
+        const originalText = button.innerHTML;
         button.innerHTML = '<span>Verzenden...</span>';
         button.disabled = true;
         
-        // If using Formspree, the form will submit normally
-        // This is just for visual feedback
-        
-        // For demo purposes, if action contains 'YOUR_FORM_ID', show a message
-        if (form.action.includes('YOUR_FORM_ID')) {
-            e.preventDefault();
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: { 'Accept': 'application/json' }
+            });
             
-            setTimeout(() => {
-                button.innerHTML = '<span>Bedankt!</span>';
-                button.style.background = 'var(--mello-green-dark)';
-                button.style.color = 'var(--deep-text)';
-                
-                setTimeout(() => {
-                    button.innerHTML = originalText;
-                    button.disabled = false;
-                    button.style.background = '';
-                    button.style.color = '';
-                    form.reset();
-                }, 2000);
-            }, 1000);
+            const data = await response.json();
             
-            console.log('Form submitted (demo mode). Replace YOUR_FORM_ID in the form action with your actual Formspree form ID.');
+            if (data.ok) {
+                form.classList.add('form-hidden');
+                if (successEl) {
+                    successEl.hidden = false;
+                    successEl.focus({ preventScroll: true });
+                }
+            } else {
+                button.innerHTML = originalText;
+                button.disabled = false;
+                if (data.error) {
+                    alert(data.error || 'Er ging iets mis. Probeer het later opnieuw.');
+                }
+            }
+        } catch (err) {
+            button.innerHTML = originalText;
+            button.disabled = false;
+            alert('Er ging iets mis. Controleer je internetverbinding en probeer het opnieuw.');
         }
     });
 }
