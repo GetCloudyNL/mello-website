@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mello - Rustgevende white noise & ambient sounds app voor iOS. Ontspan, focus en slaap met sfeervolle geluiden. Gratis, zonder reclames.">
+    <meta name="keywords" content="white noise, ambient sounds, slaap app, focus app, ontspanning, iOS app">
+    <meta name="author" content="Ralph & Lisa">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mello - Ontspan. Focus. Slaap.">
+    <meta property="og:description" content="Rustgevende white noise & ambient sounds app voor iOS. Gratis, zonder reclames.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mellosounds.app">
+    <meta property="og:image" content="https://mellosounds.app/assets/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon" href="assets/icon.png">
+    
+    <title>Mello - Ontspan. Focus. Slaap.</title>
+    
+    <!-- Google Fonts - League Spartan + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="logo">
+                <img src="assets/icon.png" alt="Mello" class="logo-icon-img">
+                <span class="logo-text">mello</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features" class="nav-link" data-i18n="nav.features">Features</a>
+                <a href="#about" class="nav-link" data-i18n="nav.about">Over ons</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            </div>
+            <a href="#download" class="nav-cta" data-i18n="nav.download">Download</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge" data-i18n="hero.badge">Gratis & zonder reclames</span>
+                <h1 class="hero-tagline" data-i18n="hero.tagline">Jouw geluid voor focus of rust.</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">White noise & ambient sounds om scherp te werken of heerlijk te ontspannen. Ontdek jouw perfecte geluid.</p>
+                <div class="hero-cta">
+                    <a href="https://apps.apple.com/app/mello" class="app-store-badge" target="_blank" rel="noopener">
+                        <img src="assets/en-us.svg" alt="Download on the App Store" class="app-store-badge-img" id="app-store-badge" data-i18n-alt="appStore.alt">
+                    </a>
+                    <span class="hero-cta-text" data-i18n="hero.ctaText">Beschikbaar voor iPhone & iPad</span>
+                </div>
+            </div>
+            <div class="hero-mockup">
+                <div class="mockup-glow"></div>
+                <img src="assets/mello-app.webp" alt="Mello app screenshot" class="mockup-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="features.label">Features</span>
+                <h2 class="section-title" data-i18n="features.title">Wat maakt Mello bijzonder?</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">Alles wat je nodig hebt voor rust en ontspanning, in één mooie app.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🎵</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.sounds.title">Rustgevende geluiden</h3>
+                    <p class="feature-description" data-i18n="features.sounds.desc">Van zachte regen tot oceaangolven, van knisperend haardvuur tot fluisterende wind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">⏱️</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.timer.title">Slaaptimer</h3>
+                    <p class="feature-description" data-i18n="features.timer.desc">Val rustig in slaap met een zachte 30-seconden fade-out. Geen schrikken meer.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">❤️</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.favorites.title">Favorieten</h3>
+                    <p class="feature-description" data-i18n="features.favorites.desc">Bewaar je lievelingsgeluiden en vind ze direct terug. Jouw persoonlijke collectie.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🎙️</span>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.recordings.title">Eigen opnames</h3>
+                    <p class="feature-description" data-i18n="features.recordings.desc">Neem je eigen geluiden op. De ventilator van thuis of je favoriete plek.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlights-grid">
+                <div class="highlight">
+                    <div class="highlight-icon-wrapper">
+                        <span class="highlight-icon">✨</span>
+                    </div>
+                    <div class="highlight-content">
+                        <span class="highlight-title" data-i18n="highlights.free.title">Helemaal gratis</span>
+                        <span class="highlight-text" data-i18n="highlights.free.text">Geen verborgen kosten</span>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon-wrapper">
+                        <span class="highlight-icon">🚫</span>
+                    </div>
+                    <div class="highlight-content">
+                        <span class="highlight-title" data-i18n="highlights.noAds.title">Geen reclames</span>
+                        <span class="highlight-text" data-i18n="highlights.noAds.text">Puur genieten</span>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon-wrapper">
+                        <span class="highlight-icon">🌍</span>
+                    </div>
+                    <div class="highlight-content">
+                        <span class="highlight-title" data-i18n="highlights.languages.title">5 talen</span>
+                        <span class="highlight-text">NL, EN, ES, FR, IT</span>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <div class="highlight-icon-wrapper">
+                        <span class="highlight-icon">🖼️</span>
+                    </div>
+                    <div class="highlight-content">
+                        <span class="highlight-title" data-i18n="highlights.images.title">Sfeervolle beelden</span>
+                        <span class="highlight-text" data-i18n="highlights.images.text">Bij elk geluid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-card">
+                <div class="about-content">
+                    <span class="section-label" data-i18n="about.label">Over ons</span>
+                    <h2 class="section-title" data-i18n="about.title">Gemaakt met liefde</h2>
+                    <p class="about-text" data-i18n="about.text1">Mello is gemaakt door Ralph & Lisa. We geloven dat iedereen toegang verdient tot rust en ontspanning, daarom is de app helemaal gratis en zonder reclames.</p>
+                    <p class="about-text" data-i18n="about.text2">Of je nu wilt focussen tijdens het werk, je baby in slaap wilt sussen, of zelf lekker wilt wegdromen — we hopen dat Mello je helpt om jouw moment van rust te vinden.</p>
+                    <div class="about-signature">
+                        <span class="signature-text">Ralph & Lisa</span>
+                        <span class="signature-location" data-i18n="about.location">Nederland 🇳🇱</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-label" data-i18n="contact.label">Feedback</span>
+                    <h2 class="section-title" data-i18n="contact.title">Laat van je horen</h2>
+                    <p class="contact-text" data-i18n="contact.text">Heb je een idee voor een nieuw geluid? Een suggestie voor een feature? Of gewoon feedback? We horen graag van je!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:hello@mellosounds.app" class="contact-method">
+                            <span class="contact-method-icon">📧</span>
+                            <span class="contact-method-text">hello@mellosounds.app</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label" data-i18n="form.name">Naam</label>
+                            <input type="text" id="name" name="name" class="form-input" data-i18n-placeholder="form.namePlaceholder" placeholder="Je naam" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" data-i18n-placeholder="form.emailPlaceholder" placeholder="je@email.nl" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="type" class="form-label" data-i18n="form.type">Type feedback</label>
+                            <select id="type" name="type" class="form-input form-select">
+                                <option value="geluid" data-i18n="form.optionSound">Nieuw geluid idee</option>
+                                <option value="feature" data-i18n="form.optionFeature">Feature suggestie</option>
+                                <option value="bug" data-i18n="form.optionBug">Bug melden</option>
+                                <option value="anders" data-i18n="form.optionOther">Anders</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label" data-i18n="form.message">Bericht</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" data-i18n-placeholder="form.messagePlaceholder" placeholder="Vertel ons je idee..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="form-button">
+                            <span data-i18n="form.submit">Verstuur</span>
+                            <svg class="button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-card">
+                <div class="download-content">
+                    <h2 class="download-title" data-i18n="download.title">Klaar om te ontspannen?</h2>
+                    <p class="download-subtitle" data-i18n="download.subtitle">Download Mello gratis op je iPhone of iPad en ontdek je moment van rust.</p>
+                    <a href="https://apps.apple.com/app/mello" class="app-store-badge app-store-badge-large" target="_blank" rel="noopener">
+                        <img src="assets/en-us.svg" alt="Download on the App Store" class="app-store-badge-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/icon.png" alt="Mello" class="logo-icon-img">
+                        <span class="logo-text">mello</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">Jouw geluid voor focus of rust.</p>
+                </div>
+                <div class="footer-links-wrapper">
+                    <div class="footer-links-group">
+                        <span class="footer-links-title" data-i18n="footer.app">App</span>
+                        <a href="#features" class="footer-link" data-i18n="nav.features">Features</a>
+                        <a href="#download" class="footer-link" data-i18n="nav.download">Download</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <span class="footer-links-title" data-i18n="footer.info">Info</span>
+                        <a href="#about" class="footer-link" data-i18n="nav.about">Over ons</a>
+                        <a href="#contact" class="footer-link" data-i18n="nav.contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="footer.copyright">© 2024 Mello. Gemaakt met ❤️ in Nederland.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
