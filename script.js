@@ -56,7 +56,7 @@ function applyTranslations(locale) {
         if (value != null) el.alt = value;
     });
     const tagline = getTranslation(t, 'hero.tagline');
-    if (tagline) document.title = `Mello — ${tagline}`;
+    if (tagline) document.title = `Mello - ${tagline}`;
     const langLabel = getTranslation(t, 'nav.langLabel');
     const langEl = document.querySelector('.nav-lang');
     if (langEl && langLabel) langEl.setAttribute('aria-label', langLabel);
