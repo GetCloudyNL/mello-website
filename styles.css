@@ -1329,6 +1329,95 @@ a {
 }
 
 /* ==========================================================================
+   Legal Pages (Privacy, Terms)
+   ========================================================================== */
+
+.legal-page {
+    padding: calc(80px + var(--spacing-3xl)) 0 var(--spacing-4xl);
+    background: var(--warm-beige);
+    min-height: 100vh;
+}
+
+.legal-content {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--card-white);
+    padding: var(--spacing-3xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.legal-title {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    color: var(--deep-text);
+    margin-bottom: var(--spacing-xs);
+}
+
+.legal-updated {
+    font-size: var(--font-size-sm);
+    color: var(--soft-text);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.legal-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.legal-section:last-child {
+    margin-bottom: 0;
+}
+
+.legal-section h2 {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--deep-text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.legal-section p {
+    font-size: var(--font-size-base);
+    color: var(--body-text);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-sm);
+}
+
+.legal-section p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-section a {
+    color: var(--mello-green-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.legal-section a:hover {
+    color: var(--mello-green);
+}
+
+@media (max-width: 639px) {
+    .legal-page {
+        padding: calc(70px + var(--spacing-xl)) 0 var(--spacing-2xl);
+    }
+    
+    .legal-content {
+        padding: var(--spacing-xl);
+        border-radius: var(--radius-lg);
+    }
+    
+    .legal-title {
+        font-size: var(--font-size-2xl);
+    }
+    
+    .legal-section h2 {
+        font-size: var(--font-size-lg);
+    }
+}
+
+/* ==========================================================================
    Accessibility
    ========================================================================== */
 

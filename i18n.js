@@ -82,6 +82,44 @@ const translations = {
       copyright: '© 2026 Mello. Gemaakt met liefde in Nederland.',
     },
     appStore: { alt: 'Download op de App Store' },
+    privacy: {
+      title: 'Privacy Policy',
+      updated: 'Laatst bijgewerkt: februari 2026',
+      about: {
+        title: 'Over deze policy',
+        text: 'Deze privacy policy beschrijft hoe Mello, een app van Get Cloudy B.V., omgaat met je gegevens. We hechten veel waarde aan je privacy en willen transparant zijn over wat we wel en niet doen.',
+      },
+      data: {
+        title: 'Welke gegevens verzamelen we?',
+        short: 'Kort antwoord: geen.',
+        text1: 'Mello verzamelt geen persoonlijke gegevens. We slaan geen informatie op over jou, je apparaat of je gebruik van de app. Er worden geen accounts aangemaakt en er is geen registratie nodig.',
+        text2: 'Alle instellingen en voorkeuren (zoals je favoriete geluiden) worden lokaal op je apparaat opgeslagen en worden niet met ons gedeeld.',
+      },
+      analytics: {
+        title: 'Analytics en tracking',
+        text: 'Mello gebruikt geen analytics, tracking of andere diensten van derden. We volgen niet hoe je de app gebruikt en we delen geen gegevens met externe partijen.',
+      },
+      ads: {
+        title: 'Advertenties',
+        text: 'Mello bevat geen advertenties en zal die ook nooit bevatten. We verkopen geen gegevens aan adverteerders omdat we simpelweg geen gegevens hebben.',
+      },
+      storage: {
+        title: 'Gegevensopslag',
+        text: 'Aangezien we geen gegevens verzamelen, slaan we ook niets op. Je voorkeuren blijven op je eigen apparaat en worden niet gesynchroniseerd of gebackupt naar onze servers (we hebben er geen).',
+      },
+      children: {
+        title: 'Kinderen',
+        text: 'Mello is geschikt voor alle leeftijden. Omdat we geen gegevens verzamelen, is er geen speciale behandeling nodig voor kinderen onder de 16 jaar.',
+      },
+      changes: {
+        title: 'Wijzigingen',
+        text: 'Als we ooit iets aan deze policy wijzigen, zullen we dat hier vermelden met een nieuwe datum. Grote wijzigingen communiceren we ook via een update van de app.',
+      },
+      contact: {
+        title: 'Contact',
+        text: 'Heb je vragen over deze privacy policy of over Mello in het algemeen? Neem gerust contact met ons op:',
+      },
+    },
   },
 
   en: {
@@ -162,6 +200,44 @@ const translations = {
       copyright: '© 2026 Mello. Made with love in the Netherlands.',
     },
     appStore: { alt: 'Download on the App Store' },
+    privacy: {
+      title: 'Privacy Policy',
+      updated: 'Last updated: February 2026',
+      about: {
+        title: 'About this policy',
+        text: 'This privacy policy describes how Mello, an app by Get Cloudy B.V., handles your data. We value your privacy and want to be transparent about what we do and don\'t do.',
+      },
+      data: {
+        title: 'What data do we collect?',
+        short: 'Short answer: none.',
+        text1: 'Mello does not collect any personal data. We don\'t store any information about you, your device, or your use of the app. No accounts are created and no registration is required.',
+        text2: 'All settings and preferences (like your favorite sounds) are stored locally on your device and are not shared with us.',
+      },
+      analytics: {
+        title: 'Analytics and tracking',
+        text: 'Mello does not use analytics, tracking, or any third-party services. We don\'t monitor how you use the app and we don\'t share data with external parties.',
+      },
+      ads: {
+        title: 'Advertisements',
+        text: 'Mello contains no advertisements and never will. We don\'t sell data to advertisers because we simply have no data.',
+      },
+      storage: {
+        title: 'Data storage',
+        text: 'Since we don\'t collect any data, we don\'t store anything either. Your preferences stay on your own device and are not synced or backed up to our servers (we don\'t have any).',
+      },
+      children: {
+        title: 'Children',
+        text: 'Mello is suitable for all ages. Because we don\'t collect any data, no special treatment is needed for children under 16.',
+      },
+      changes: {
+        title: 'Changes',
+        text: 'If we ever change this policy, we will note it here with a new date. Major changes will also be communicated via an app update.',
+      },
+      contact: {
+        title: 'Contact',
+        text: 'Have questions about this privacy policy or about Mello in general? Feel free to contact us:',
+      },
+    },
   },
 
   es: {
@@ -242,6 +318,44 @@ const translations = {
       copyright: '© 2026 Mello. Hecho con amor en Países Bajos.',
     },
     appStore: { alt: 'Descargar en la App Store' },
+    privacy: {
+      title: 'Política de Privacidad',
+      updated: 'Última actualización: febrero 2026',
+      about: {
+        title: 'Sobre esta política',
+        text: 'Esta política de privacidad describe cómo Mello, una app de Get Cloudy B.V., maneja tus datos. Valoramos tu privacidad y queremos ser transparentes sobre lo que hacemos y no hacemos.',
+      },
+      data: {
+        title: '¿Qué datos recopilamos?',
+        short: 'Respuesta corta: ninguno.',
+        text1: 'Mello no recopila ningún dato personal. No almacenamos información sobre ti, tu dispositivo o tu uso de la app. No se crean cuentas y no se requiere registro.',
+        text2: 'Todas las configuraciones y preferencias (como tus sonidos favoritos) se almacenan localmente en tu dispositivo y no se comparten con nosotros.',
+      },
+      analytics: {
+        title: 'Análisis y seguimiento',
+        text: 'Mello no utiliza análisis, seguimiento ni servicios de terceros. No monitoreamos cómo usas la app y no compartimos datos con partes externas.',
+      },
+      ads: {
+        title: 'Publicidad',
+        text: 'Mello no contiene publicidad y nunca la contendrá. No vendemos datos a anunciantes porque simplemente no tenemos datos.',
+      },
+      storage: {
+        title: 'Almacenamiento de datos',
+        text: 'Como no recopilamos datos, tampoco almacenamos nada. Tus preferencias permanecen en tu dispositivo y no se sincronizan ni respaldan en nuestros servidores (no tenemos).',
+      },
+      children: {
+        title: 'Niños',
+        text: 'Mello es apta para todas las edades. Como no recopilamos datos, no se necesita tratamiento especial para menores de 16 años.',
+      },
+      changes: {
+        title: 'Cambios',
+        text: 'Si alguna vez cambiamos esta política, lo indicaremos aquí con una nueva fecha. Los cambios importantes también se comunicarán mediante una actualización de la app.',
+      },
+      contact: {
+        title: 'Contacto',
+        text: '¿Tienes preguntas sobre esta política de privacidad o sobre Mello en general? No dudes en contactarnos:',
+      },
+    },
   },
 
   fr: {
@@ -322,6 +436,44 @@ const translations = {
       copyright: '© 2026 Mello. Fait avec amour aux Pays-Bas.',
     },
     appStore: { alt: 'Télécharger sur l\'App Store' },
+    privacy: {
+      title: 'Politique de Confidentialité',
+      updated: 'Dernière mise à jour : février 2026',
+      about: {
+        title: 'À propos de cette politique',
+        text: 'Cette politique de confidentialité décrit comment Mello, une app de Get Cloudy B.V., gère vos données. Nous accordons une grande importance à votre vie privée et souhaitons être transparents sur ce que nous faisons et ne faisons pas.',
+      },
+      data: {
+        title: 'Quelles données collectons-nous ?',
+        short: 'Réponse courte : aucune.',
+        text1: 'Mello ne collecte aucune donnée personnelle. Nous ne stockons aucune information vous concernant, votre appareil ou votre utilisation de l\'app. Aucun compte n\'est créé et aucune inscription n\'est requise.',
+        text2: 'Tous les paramètres et préférences (comme vos sons favoris) sont stockés localement sur votre appareil et ne sont pas partagés avec nous.',
+      },
+      analytics: {
+        title: 'Analyses et suivi',
+        text: 'Mello n\'utilise pas d\'analyses, de suivi ou de services tiers. Nous ne surveillons pas comment vous utilisez l\'app et nous ne partageons pas de données avec des parties externes.',
+      },
+      ads: {
+        title: 'Publicités',
+        text: 'Mello ne contient pas de publicités et n\'en contiendra jamais. Nous ne vendons pas de données aux annonceurs car nous n\'avons tout simplement pas de données.',
+      },
+      storage: {
+        title: 'Stockage des données',
+        text: 'Comme nous ne collectons pas de données, nous ne stockons rien non plus. Vos préférences restent sur votre appareil et ne sont ni synchronisées ni sauvegardées sur nos serveurs (nous n\'en avons pas).',
+      },
+      children: {
+        title: 'Enfants',
+        text: 'Mello convient à tous les âges. Comme nous ne collectons aucune donnée, aucun traitement spécial n\'est nécessaire pour les enfants de moins de 16 ans.',
+      },
+      changes: {
+        title: 'Modifications',
+        text: 'Si nous modifions un jour cette politique, nous l\'indiquerons ici avec une nouvelle date. Les changements importants seront également communiqués via une mise à jour de l\'app.',
+      },
+      contact: {
+        title: 'Contact',
+        text: 'Vous avez des questions sur cette politique de confidentialité ou sur Mello en général ? N\'hésitez pas à nous contacter :',
+      },
+    },
   },
 
   it: {
@@ -402,5 +554,43 @@ const translations = {
       copyright: '© 2026 Mello. Fatto con amore nei Paesi Bassi.',
     },
     appStore: { alt: 'Scarica su App Store' },
+    privacy: {
+      title: 'Informativa sulla Privacy',
+      updated: 'Ultimo aggiornamento: febbraio 2026',
+      about: {
+        title: 'Informazioni su questa policy',
+        text: 'Questa informativa sulla privacy descrive come Mello, un\'app di Get Cloudy B.V., gestisce i tuoi dati. Teniamo molto alla tua privacy e vogliamo essere trasparenti su cosa facciamo e non facciamo.',
+      },
+      data: {
+        title: 'Quali dati raccogliamo?',
+        short: 'Risposta breve: nessuno.',
+        text1: 'Mello non raccoglie alcun dato personale. Non memorizziamo informazioni su di te, il tuo dispositivo o il tuo utilizzo dell\'app. Non vengono creati account e non è richiesta alcuna registrazione.',
+        text2: 'Tutte le impostazioni e preferenze (come i tuoi suoni preferiti) sono memorizzate localmente sul tuo dispositivo e non sono condivise con noi.',
+      },
+      analytics: {
+        title: 'Analisi e tracciamento',
+        text: 'Mello non utilizza analisi, tracciamento o servizi di terze parti. Non monitoriamo come usi l\'app e non condividiamo dati con parti esterne.',
+      },
+      ads: {
+        title: 'Pubblicità',
+        text: 'Mello non contiene pubblicità e non ne conterrà mai. Non vendiamo dati agli inserzionisti perché semplicemente non abbiamo dati.',
+      },
+      storage: {
+        title: 'Archiviazione dati',
+        text: 'Poiché non raccogliamo dati, non memorizziamo nulla. Le tue preferenze rimangono sul tuo dispositivo e non vengono sincronizzate o salvate sui nostri server (non ne abbiamo).',
+      },
+      children: {
+        title: 'Bambini',
+        text: 'Mello è adatta a tutte le età. Poiché non raccogliamo dati, non è necessario alcun trattamento speciale per i minori di 16 anni.',
+      },
+      changes: {
+        title: 'Modifiche',
+        text: 'Se mai modificheremo questa policy, lo indicheremo qui con una nuova data. I cambiamenti importanti saranno comunicati anche tramite un aggiornamento dell\'app.',
+      },
+      contact: {
+        title: 'Contatto',
+        text: 'Hai domande su questa informativa sulla privacy o su Mello in generale? Non esitare a contattarci:',
+      },
+    },
   },
 };
