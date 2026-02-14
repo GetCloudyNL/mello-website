@@ -7,9 +7,24 @@ const SUPPORTED_LOCALES = ['nl', 'en', 'es', 'fr', 'it'];
 const DEFAULT_LOCALE = 'nl';
 
 /**
- * Detect preferred locale from browser or localStorage
+ * Get locale from URL ?lang= (e.g. ?lang=nl or ?lang=en)
+ */
+function getLocaleFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get('lang');
+    if (lang && SUPPORTED_LOCALES.includes(lang.toLowerCase())) return lang.toLowerCase();
+    return null;
+}
+
+/**
+ * Detect preferred locale from URL, localStorage, or browser
  */
 function getLocale() {
+    const fromUrl = getLocaleFromUrl();
+    if (fromUrl) {
+        if (typeof localStorage !== 'undefined') localStorage.setItem('mello-locale', fromUrl);
+        return fromUrl;
+    }
     const stored = typeof localStorage !== 'undefined' && localStorage.getItem('mello-locale');
     if (stored && SUPPORTED_LOCALES.includes(stored)) return stored;
     const browser = (navigator.language || navigator.userLanguage || '').toLowerCase();
