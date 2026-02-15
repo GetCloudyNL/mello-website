@@ -419,8 +419,6 @@ a {
     font-family: var(--font-family-heading);
     font-size: var(--font-size-sm);
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     color: var(--mello-green-dark);
     margin-bottom: var(--spacing-sm);
 }
@@ -1002,8 +1000,6 @@ a {
     font-size: var(--font-size-sm);
     font-weight: 600;
     color: rgba(255, 255, 255, 0.4);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     margin-bottom: var(--spacing-xs);
 }
 
