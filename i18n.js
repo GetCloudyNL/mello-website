@@ -6,48 +6,48 @@
 const translations = {
   nl: {
     hero: {
-      badge: 'Gratis & zonder reclames',
-      tagline: 'Geluiden voor rust en focus',
+      badge: 'gratis & zonder reclames',
+      tagline: 'geluiden voor rust en focus',
       subtitle: 'Mello is jouw pauzeknop. Een kalmerende plek die je hoofd tot rust brengt met zachte geluiden. Wanneer het leven druk of luid voelt, zorgt Mello voor zachtheid en helderheid. Voor jou of voor je kleintje.',
-      ctaText: 'Beschikbaar voor iPhone & iPad',
+      ctaText: 'beschikbaar voor iPhone & iPad',
     },
     nav: {
-      features: 'Features',
-      about: 'Over ons',
-      contact: 'Contact',
-      download: 'Download',
+      features: 'features',
+      about: 'over ons',
+      contact: 'contact',
+      download: 'download',
       langLabel: 'Taal',
     },
     features: {
-      label: 'Features',
-      title: 'Wat zit er in Mello?',
+      label: 'features',
+      title: 'wat zit er in mello?',
       subtitle: 'Alles voor focus en ontspanning in één app. Voor jou of voor je kleintje.',
       sounds: {
-        title: 'Rustgevende geluiden',
+        title: 'rustgevende geluiden',
         desc: 'Zoals zachte regen, white noise, knisperend haardvuur en klankschalen',
       },
       timer: {
-        title: 'Slaaptimer',
+        title: 'slaaptimer',
         desc: 'Speel de geluiden af zolang als jij wil en val in slaap met een zachte fade-out.',
       },
       favorites: {
-        title: 'Favorieten',
+        title: 'favorieten',
         desc: 'Bewaar je lievelingsgeluiden en vind ze direct terug.',
       },
       recordings: {
-        title: 'Eigen opnames',
+        title: 'eigen opnames',
         desc: 'Neem je eigen geluiden op. Denk aan slaapverhaaltjes, affirmaties of zachte omgevingsgeluiden die jij fijn vindt.',
       },
     },
     highlights: {
-      free: { title: 'Helemaal gratis', text: 'Geen verborgen kosten, geen in-app aankopen.' },
-      noAds: { title: 'Geen reclames', text: 'Gewoon ontspannen zonder onderbrekingen' },
+      free: { title: 'helemaal gratis', text: 'Geen verborgen kosten, geen in-app aankopen.' },
+      noAds: { title: 'geen reclames', text: 'Gewoon ontspannen zonder onderbrekingen' },
       languages: { title: '5 talen', text: 'Gebruik de app in jouw voorkeurstaal. NL, EN, ES, FR, IT' },
-      images: { title: 'Mooie beelden', text: 'Een passend sfeerbeeld bij elk geluid.' },
+      images: { title: 'mooie beelden', text: 'Een passend sfeerbeeld bij elk geluid.' },
     },
     about: {
-      label: 'Over ons',
-      title: 'Gemaakt met liefde',
+      label: 'over ons',
+      title: 'gemaakt met liefde',
       text1: 'Mello is gemaakt door Ralph & Lisa. Een tijd geleden merkten we allebei hetzelfde: ons hoofd stond nooit stil. Te veel tabbladen open, te veel gedachten tegelijk.',
       text2: 'We zochten iets simpels om beter te focussen, \'s avonds echt te ontspannen en niet steeds \'aan\' te staan. Zo ontstond Mello. Zachte geluiden die helpen tot rust te komen en je hoofd helder te maken.',
       text3: 'We vinden dat iedereen toegang moet hebben tot rust en ontspanning. Daarom is de app gratis en zonder reclames.',
@@ -55,8 +55,8 @@ const translations = {
       location: 'Nederland 🇳🇱',
     },
     contact: {
-      label: 'Feedback',
-      title: 'Laat van je horen',
+      label: 'feedback',
+      title: 'laat van je horen',
       text: 'Heb je een idee voor een nieuw geluid? Een suggestie? Of gewoon feedback? We horen graag van je!',
     },
     form: {
@@ -74,14 +74,14 @@ const translations = {
       success: 'Je bericht is verstuurd. We nemen zo snel mogelijk contact op.',
     },
     download: {
-      title: 'Ook meer rust voor jou of je kleintje?',
+      title: 'ook meer rust voor jou of je kleintje?',
       subtitle: 'Download Mello gratis op je iPhone of iPad.',
     },
     footer: {
-      tagline: 'Geluiden voor rust en focus.',
-      app: 'App',
-      info: 'Info',
-      copyright: '© 2026 Mello. Gemaakt met liefde in Nederland.',
+      tagline: 'geluiden voor rust en focus.',
+      app: 'app',
+      info: 'info',
+      copyright: '© 2026 mello. gemaakt met liefde in Nederland.',
     },
     appStore: { alt: 'Download op de App Store' },
     privacy: {
