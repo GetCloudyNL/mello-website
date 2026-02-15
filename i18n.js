@@ -7,8 +7,8 @@ const translations = {
   nl: {
     hero: {
       badge: 'Gratis & zonder reclames',
-      tagline: 'Jouw geluid voor focus of rust.',
-      subtitle: 'White noise en omgevingsgeluiden om geconcentreerd te werken of lekker te ontspannen.',
+      tagline: 'Geluiden voor rust en focus',
+      subtitle: 'Mello is jouw pauzeknop. Een kalmerende plek die je hoofd tot rust brengt met zachte geluiden. Wanneer het leven druk of luid voelt, zorgt Mello voor zachtheid en helderheid. Voor jou of voor je kleintje.',
       ctaText: 'Beschikbaar voor iPhone & iPad',
     },
     nav: {
@@ -21,14 +21,14 @@ const translations = {
     features: {
       label: 'Features',
       title: 'Wat zit er in Mello?',
-      subtitle: 'Alles voor rust en focus, in één app.',
+      subtitle: 'Alles voor focus en ontspanning in één app. Voor jou of voor je kleintje.',
       sounds: {
         title: 'Rustgevende geluiden',
-        desc: 'Zachte regen, oceaangolven, knisperend haardvuur, fluisterende wind.',
+        desc: 'Zoals zachte regen, white noise, knisperend haardvuur en klankschalen',
       },
       timer: {
         title: 'Slaaptimer',
-        desc: 'Val in slaap met een zachte fade-out van 30 seconden.',
+        desc: 'Speel de geluiden af zolang als jij wil en val in slaap met een zachte fade-out.',
       },
       favorites: {
         title: 'Favorieten',
@@ -36,20 +36,22 @@ const translations = {
       },
       recordings: {
         title: 'Eigen opnames',
-        desc: 'Neem je eigen geluiden op. De ventilator thuis, of een plek die je fijn vindt.',
+        desc: 'Neem je eigen geluiden op. Denk aan slaapverhaaltjes, affirmaties of zachte omgevingsgeluiden die jij fijn vindt.',
       },
     },
     highlights: {
-      free: { title: 'Helemaal gratis', text: 'Geen verborgen kosten' },
-      noAds: { title: 'Geen reclames', text: 'Gewoon genieten' },
-      languages: { title: '5 talen', text: 'NL, EN, ES, FR, IT' },
-      images: { title: 'Mooie beelden', text: 'Bij elk geluid' },
+      free: { title: 'Helemaal gratis', text: 'Geen verborgen kosten, geen in-app aankopen.' },
+      noAds: { title: 'Geen reclames', text: 'Gewoon ontspannen zonder onderbrekingen' },
+      languages: { title: '5 talen', text: 'Gebruik de app in jouw voorkeurstaal. NL, EN, ES, FR, IT' },
+      images: { title: 'Mooie beelden', text: 'Een passend sfeerbeeld bij elk geluid.' },
     },
     about: {
       label: 'Over ons',
       title: 'Gemaakt met liefde',
-      text1: 'Mello is gemaakt door Ralph & Lisa. We vinden dat iedereen toegang moet hebben tot rust en ontspanning. Daarom is de app gratis en zonder reclames.',
-      text2: 'Of je nu wilt focussen op je werk, je baby in slaap wilt sussen, of zelf wilt wegdromen: we hopen dat Mello je daarbij helpt.',
+      text1: 'Mello is gemaakt door Ralph & Lisa. Een tijd geleden merkten we allebei hetzelfde: ons hoofd stond nooit stil. Te veel tabbladen open, te veel gedachten tegelijk.',
+      text2: 'We zochten iets simpels om beter te focussen, \'s avonds echt te ontspannen en niet steeds \'aan\' te staan. Zo ontstond Mello. Zachte geluiden die helpen tot rust te komen en je hoofd helder te maken.',
+      text3: 'We vinden dat iedereen toegang moet hebben tot rust en ontspanning. Daarom is de app gratis en zonder reclames.',
+      text4: 'Of je nu wilt focussen op je werk, je baby in slaap wilt sussen of zelf wilt wegdromen, Mello helpt je even vertragen.',
       location: 'Nederland 🇳🇱',
     },
     contact: {
@@ -72,11 +74,11 @@ const translations = {
       success: 'Je bericht is verstuurd. We nemen zo snel mogelijk contact op.',
     },
     download: {
-      title: 'Zin om te ontspannen?',
+      title: 'Ook meer rust voor jou of je kleintje?',
       subtitle: 'Download Mello gratis op je iPhone of iPad.',
     },
     footer: {
-      tagline: 'Jouw geluid voor focus of rust.',
+      tagline: 'Geluiden voor rust en focus.',
       app: 'App',
       info: 'Info',
       copyright: '© 2026 Mello. Gemaakt met liefde in Nederland.',
@@ -125,8 +127,8 @@ const translations = {
   en: {
     hero: {
       badge: 'Free & no ads',
-      tagline: 'Your sound for focus or calm.',
-      subtitle: 'White noise and ambient sounds to help you work or unwind.',
+      tagline: 'Sounds for calm and focus',
+      subtitle: 'Mello is your pause button. A calming place that quiets your mind with soft sounds. When life feels busy or loud, Mello brings softness and clarity. For you or your little one.',
       ctaText: 'Available for iPhone & iPad',
     },
     nav: {
@@ -139,35 +141,37 @@ const translations = {
     features: {
       label: 'Features',
       title: 'What\'s in Mello?',
-      subtitle: 'Everything for rest and focus, in one app.',
+      subtitle: 'Everything for focus and relaxation in one app. For you or your little one.',
       sounds: {
         title: 'Soothing sounds',
-        desc: 'Gentle rain, ocean waves, crackling fire, whispering wind.',
+        desc: 'Like soft rain, white noise, crackling fire and singing bowls',
       },
       timer: {
         title: 'Sleep timer',
-        desc: 'Fall asleep with a soft 30-second fade-out.',
+        desc: 'Play sounds for as long as you want and fall asleep with a soft fade-out.',
       },
       favorites: {
         title: 'Favorites',
-        desc: 'Save your favorite sounds and find them quickly.',
+        desc: 'Save your favorite sounds and find them right away.',
       },
       recordings: {
         title: 'Your own recordings',
-        desc: 'Record your own sounds. The fan at home, or a place you like.',
+        desc: 'Record your own sounds. Think bedtime stories, affirmations or soft ambient sounds you enjoy.',
       },
     },
     highlights: {
-      free: { title: 'Completely free', text: 'No hidden costs' },
-      noAds: { title: 'No ads', text: 'Just enjoy' },
-      languages: { title: '5 languages', text: 'NL, EN, ES, FR, IT' },
-      images: { title: 'Nice imagery', text: 'With every sound' },
+      free: { title: 'Completely free', text: 'No hidden costs, no in-app purchases.' },
+      noAds: { title: 'No ads', text: 'Just relax without interruptions' },
+      languages: { title: '5 languages', text: 'Use the app in your preferred language. NL, EN, ES, FR, IT' },
+      images: { title: 'Beautiful imagery', text: 'A matching mood image with every sound.' },
     },
     about: {
       label: 'About us',
       title: 'Made with love',
-      text1: 'Mello is made by Ralph & Lisa. We think everyone should have access to rest and relaxation. That\'s why the app is free and ad-free.',
-      text2: 'Whether you want to focus at work, soothe your baby to sleep, or drift off yourself: we hope Mello helps.',
+      text1: 'Mello is made by Ralph & Lisa. A while back we both noticed the same thing: our minds never stopped. Too many tabs open, too many thoughts at once.',
+      text2: 'We were looking for something simple to focus better, truly unwind in the evening and stop being \'on\' all the time. That\'s how Mello was born. Soft sounds that help you find calm and clear your head.',
+      text3: 'We believe everyone should have access to rest and relaxation. That\'s why the app is free and ad-free.',
+      text4: 'Whether you want to focus at work, soothe your baby to sleep or drift off yourself, Mello helps you slow down.',
       location: 'The Netherlands 🇳🇱',
     },
     contact: {
@@ -190,11 +194,11 @@ const translations = {
       success: 'Your message was sent. We\'ll get back to you soon.',
     },
     download: {
-      title: 'Ready to relax?',
+      title: 'Want more calm for you or your little one?',
       subtitle: 'Download Mello free on your iPhone or iPad.',
     },
     footer: {
-      tagline: 'Your sound for focus or calm.',
+      tagline: 'Sounds for calm and focus.',
       app: 'App',
       info: 'Info',
       copyright: '© 2026 Mello. Made with love in the Netherlands.',
@@ -243,8 +247,8 @@ const translations = {
   es: {
     hero: {
       badge: 'Gratis y sin anuncios',
-      tagline: 'Tu sonido para concentrarte o relajarte.',
-      subtitle: 'White noise y sonidos ambientales para trabajar con foco o desconectar. Descubre tu sonido perfecto.',
+      tagline: 'Sonidos para la calma y el enfoque',
+      subtitle: 'Mello es tu botón de pausa. Un lugar tranquilo que calma tu mente con sonidos suaves. Cuando la vida se siente agitada o ruidosa, Mello aporta suavidad y claridad. Para ti o para tu pequeño.',
       ctaText: 'Disponible para iPhone e iPad',
     },
     nav: {
@@ -256,36 +260,38 @@ const translations = {
     },
     features: {
       label: 'Características',
-      title: '¿Qué hace especial a Mello?',
-      subtitle: 'Todo lo que necesitas para descansar y relajarte, en una sola app.',
+      title: '¿Qué hay en Mello?',
+      subtitle: 'Todo para el enfoque y la relajación en una sola app. Para ti o para tu pequeño.',
       sounds: {
         title: 'Sonidos relajantes',
-        desc: 'Desde la lluvia suave hasta las olas del mar, desde el fuego crepitante hasta el viento susurrante.',
+        desc: 'Como lluvia suave, white noise, fuego crepitante y cuencos tibetanos',
       },
       timer: {
         title: 'Temporizador de sueño',
-        desc: 'Duérmete suavemente con un fade-out de 30 segundos. Sin sobresaltos.',
+        desc: 'Reproduce los sonidos todo el tiempo que quieras y duérmete con un suave fade-out.',
       },
       favorites: {
         title: 'Favoritos',
-        desc: 'Guarda tus sonidos favoritos y encuéntralos al instante. Tu colección personal.',
+        desc: 'Guarda tus sonidos favoritos y encuéntralos al instante.',
       },
       recordings: {
         title: 'Tus propias grabaciones',
-        desc: 'Graba tus propios sonidos. El ventilador de casa o tu lugar favorito.',
+        desc: 'Graba tus propios sonidos. Piensa en cuentos para dormir, afirmaciones o sonidos ambientales suaves que te gusten.',
       },
     },
     highlights: {
-      free: { title: 'Totalmente gratis', text: 'Sin costes ocultos' },
-      noAds: { title: 'Sin anuncios', text: 'Disfrute puro' },
-      languages: { title: '5 idiomas', text: 'NL, EN, ES, FR, IT' },
-      images: { title: 'Imágenes con ambiente', text: 'Con cada sonido' },
+      free: { title: 'Totalmente gratis', text: 'Sin costes ocultos, sin compras dentro de la app.' },
+      noAds: { title: 'Sin anuncios', text: 'Relájate sin interrupciones' },
+      languages: { title: '5 idiomas', text: 'Usa la app en tu idioma preferido. NL, EN, ES, FR, IT' },
+      images: { title: 'Imágenes bonitas', text: 'Una imagen ambiental con cada sonido.' },
     },
     about: {
       label: 'Sobre nosotros',
       title: 'Hecho con amor',
-      text1: 'Mello está hecho por Ralph y Lisa. Creemos que todo el mundo merece acceso al descanso y la relajación, por eso la app es completamente gratis y sin anuncios.',
-      text2: 'Ya sea que quieras concentrarte en el trabajo, arrullar a tu bebé o dormirte tú mismo — esperamos que Mello te ayude a encontrar tu momento de calma.',
+      text1: 'Mello está hecho por Ralph y Lisa. Hace un tiempo nos dimos cuenta de lo mismo: nuestra mente nunca paraba. Demasiadas pestañas abiertas, demasiados pensamientos a la vez.',
+      text2: 'Buscábamos algo sencillo para concentrarnos mejor, relajarnos de verdad por la noche y dejar de estar siempre \'encendidos\'. Así nació Mello. Sonidos suaves que ayudan a encontrar la calma y aclarar la mente.',
+      text3: 'Creemos que todo el mundo merece acceso al descanso y la relajación. Por eso la app es gratis y sin anuncios.',
+      text4: 'Ya sea que quieras concentrarte en el trabajo, arrullar a tu bebé o dormirte tú mismo, Mello te ayuda a frenar un poco.',
       location: 'Países Bajos 🇳🇱',
     },
     contact: {
@@ -308,11 +314,11 @@ const translations = {
       success: 'Tu mensaje se ha enviado correctamente. Te responderemos lo antes posible.',
     },
     download: {
-      title: '¿Listo para relajarte?',
-      subtitle: 'Descarga Mello gratis en tu iPhone o iPad y descubre tu momento de calma.',
+      title: '¿Más calma para ti o tu pequeño?',
+      subtitle: 'Descarga Mello gratis en tu iPhone o iPad.',
     },
     footer: {
-      tagline: 'Tu sonido para concentrarte o relajarte.',
+      tagline: 'Sonidos para la calma y el enfoque.',
       app: 'App',
       info: 'Info',
       copyright: '© 2026 Mello. Hecho con amor en Países Bajos.',
@@ -361,8 +367,8 @@ const translations = {
   fr: {
     hero: {
       badge: 'Gratuit et sans pub',
-      tagline: 'Votre son pour vous concentrer ou vous détendre.',
-      subtitle: 'White noise et sons ambiants pour rester concentré ou vous détendre. Trouvez votre son parfait.',
+      tagline: 'Des sons pour le calme et la concentration',
+      subtitle: 'Mello est votre bouton pause. Un endroit apaisant qui calme votre esprit avec des sons doux. Quand la vie est agitée ou bruyante, Mello apporte douceur et clarté. Pour vous ou votre tout-petit.',
       ctaText: 'Disponible pour iPhone et iPad',
     },
     nav: {
@@ -374,36 +380,38 @@ const translations = {
     },
     features: {
       label: 'Fonctionnalités',
-      title: 'Ce qui rend Mello unique',
-      subtitle: 'Tout ce dont vous avez besoin pour vous reposer et vous détendre, dans une seule app.',
+      title: 'Que contient Mello ?',
+      subtitle: 'Tout pour la concentration et la détente dans une seule app. Pour vous ou votre tout-petit.',
       sounds: {
         title: 'Sons apaisants',
-        desc: 'De la pluie douce aux vagues de l\'océan, du feu crépitant au vent qui murmure.',
+        desc: 'Comme la pluie douce, le white noise, le feu crépitant et les bols chantants',
       },
       timer: {
         title: 'Minuteur de sommeil',
-        desc: 'Endormez-vous en douceur avec un fade-out de 30 secondes. Plus de réveils brusques.',
+        desc: 'Écoutez les sons aussi longtemps que vous le souhaitez et endormez-vous avec un doux fade-out.',
       },
       favorites: {
         title: 'Favoris',
-        desc: 'Enregistrez vos sons préférés et retrouvez-les instantanément. Votre collection personnelle.',
+        desc: 'Enregistrez vos sons préférés et retrouvez-les instantanément.',
       },
       recordings: {
         title: 'Vos propres enregistrements',
-        desc: 'Enregistrez vos propres sons. Le ventilateur à la maison ou votre endroit préféré.',
+        desc: 'Enregistrez vos propres sons. Pensez aux histoires du soir, affirmations ou sons ambiants doux que vous aimez.',
       },
     },
     highlights: {
-      free: { title: 'Entièrement gratuit', text: 'Sans frais cachés' },
-      noAds: { title: 'Sans pub', text: 'Plaisir pur' },
-      languages: { title: '5 langues', text: 'NL, EN, ES, FR, IT' },
-      images: { title: 'Images d\'ambiance', text: 'Avec chaque son' },
+      free: { title: 'Entièrement gratuit', text: 'Sans frais cachés, sans achats intégrés.' },
+      noAds: { title: 'Sans pub', text: 'Détendez-vous sans interruptions' },
+      languages: { title: '5 langues', text: 'Utilisez l\'app dans votre langue préférée. NL, EN, ES, FR, IT' },
+      images: { title: 'Belles images', text: 'Une image d\'ambiance avec chaque son.' },
     },
     about: {
       label: 'À propos',
       title: 'Fait avec amour',
-      text1: 'Mello est créé par Ralph et Lisa. Nous croyons que tout le monde mérite l\'accès au repos et à la détente, c\'est pourquoi l\'app est entièrement gratuite et sans pub.',
-      text2: 'Que vous vouliez vous concentrer au travail, bercer bébé ou vous endormir vous-même — nous espérons que Mello vous aidera à trouver votre moment de calme.',
+      text1: 'Mello est créé par Ralph et Lisa. Il y a quelque temps, nous avons remarqué la même chose : notre esprit ne s\'arrêtait jamais. Trop d\'onglets ouverts, trop de pensées en même temps.',
+      text2: 'Nous cherchions quelque chose de simple pour mieux nous concentrer, vraiment nous détendre le soir et arrêter d\'être toujours \'en marche\'. C\'est ainsi qu\'est né Mello. Des sons doux qui aident à trouver le calme et à clarifier l\'esprit.',
+      text3: 'Nous croyons que tout le monde mérite l\'accès au repos et à la détente. C\'est pourquoi l\'app est gratuite et sans pub.',
+      text4: 'Que vous vouliez vous concentrer au travail, bercer votre bébé ou vous endormir vous-même, Mello vous aide à ralentir.',
       location: 'Pays-Bas 🇳🇱',
     },
     contact: {
@@ -426,11 +434,11 @@ const translations = {
       success: 'Votre message a bien été envoyé. Nous vous répondrons dès que possible.',
     },
     download: {
-      title: 'Prêt à vous détendre ?',
-      subtitle: 'Téléchargez Mello gratuitement sur votre iPhone ou iPad et découvrez votre moment de calme.',
+      title: 'Plus de calme pour vous ou votre tout-petit ?',
+      subtitle: 'Téléchargez Mello gratuitement sur votre iPhone ou iPad.',
     },
     footer: {
-      tagline: 'Votre son pour vous concentrer ou vous détendre.',
+      tagline: 'Des sons pour le calme et la concentration.',
       app: 'App',
       info: 'Info',
       copyright: '© 2026 Mello. Fait avec amour aux Pays-Bas.',
@@ -479,8 +487,8 @@ const translations = {
   it: {
     hero: {
       badge: 'Gratuito e senza pubblicità',
-      tagline: 'Il tuo suono per concentrarti o rilassarti.',
-      subtitle: 'White noise e suoni ambientali per lavorare con focus o staccare. Scopri il tuo suono perfetto.',
+      tagline: 'Suoni per la calma e la concentrazione',
+      subtitle: 'Mello è il tuo pulsante pausa. Un luogo rilassante che calma la mente con suoni delicati. Quando la vita è frenetica o rumorosa, Mello porta dolcezza e chiarezza. Per te o per il tuo piccolo.',
       ctaText: 'Disponibile per iPhone e iPad',
     },
     nav: {
@@ -492,36 +500,38 @@ const translations = {
     },
     features: {
       label: 'Funzionalità',
-      title: 'Cosa rende Mello speciale?',
-      subtitle: 'Tutto ciò che ti serve per riposare e rilassarti, in un\'unica app.',
+      title: 'Cosa c\'è in Mello?',
+      subtitle: 'Tutto per la concentrazione e il relax in un\'unica app. Per te o per il tuo piccolo.',
       sounds: {
         title: 'Suoni rilassanti',
-        desc: 'Dalla pioggia leggera alle onde del mare, dal fuoco scoppiettante al vento che sussurra.',
+        desc: 'Come pioggia leggera, white noise, fuoco scoppiettante e campane tibetane',
       },
       timer: {
         title: 'Timer per il sonno',
-        desc: 'Addormentati dolcemente con un fade-out di 30 secondi. Niente più risvegli bruschi.',
+        desc: 'Riproduci i suoni per tutto il tempo che vuoi e addormentati con un dolce fade-out.',
       },
       favorites: {
         title: 'Preferiti',
-        desc: 'Salva i tuoi suoni preferiti e ritrovali subito. La tua collezione personale.',
+        desc: 'Salva i tuoi suoni preferiti e ritrovali subito.',
       },
       recordings: {
         title: 'Le tue registrazioni',
-        desc: 'Registra i tuoi suoni. Il ventilatore di casa o il tuo posto preferito.',
+        desc: 'Registra i tuoi suoni. Pensa a storie della buonanotte, affermazioni o suoni ambientali delicati che ti piacciono.',
       },
     },
     highlights: {
-      free: { title: 'Completamente gratuito', text: 'Nessun costo nascosto' },
-      noAds: { title: 'Senza pubblicità', text: 'Puro piacere' },
-      languages: { title: '5 lingue', text: 'NL, EN, ES, FR, IT' },
-      images: { title: 'Immagini d\'atmosfera', text: 'Con ogni suono' },
+      free: { title: 'Completamente gratuito', text: 'Nessun costo nascosto, nessun acquisto in-app.' },
+      noAds: { title: 'Senza pubblicità', text: 'Rilassati senza interruzioni' },
+      languages: { title: '5 lingue', text: 'Usa l\'app nella tua lingua preferita. NL, EN, ES, FR, IT' },
+      images: { title: 'Belle immagini', text: 'Un\'immagine d\'atmosfera per ogni suono.' },
     },
     about: {
       label: 'Chi siamo',
       title: 'Fatto con amore',
-      text1: 'Mello è creato da Ralph e Lisa. Crediamo che tutti meritino accesso al riposo e al relax, per questo l\'app è completamente gratuita e senza pubblicità.',
-      text2: 'Che tu voglia concentrarti al lavoro, cullare il tuo bambino o addormentarti — speriamo che Mello ti aiuti a trovare il tuo momento di calma.',
+      text1: 'Mello è creato da Ralph e Lisa. Qualche tempo fa ci siamo accorti della stessa cosa: la nostra mente non si fermava mai. Troppe schede aperte, troppi pensieri contemporaneamente.',
+      text2: 'Cercavamo qualcosa di semplice per concentrarci meglio, rilassarci davvero la sera e smettere di essere sempre \'accesi\'. Così è nato Mello. Suoni delicati che aiutano a trovare la calma e a schiarire la mente.',
+      text3: 'Crediamo che tutti meritino accesso al riposo e al relax. Per questo l\'app è gratuita e senza pubblicità.',
+      text4: 'Che tu voglia concentrarti al lavoro, cullare il tuo bambino o addormentarti, Mello ti aiuta a rallentare.',
       location: 'Paesi Bassi 🇳🇱',
     },
     contact: {
@@ -544,11 +554,11 @@ const translations = {
       success: 'Il tuo messaggio è stato inviato con successo. Ti risponderemo al più presto.',
     },
     download: {
-      title: 'Pronto a rilassarti?',
-      subtitle: 'Scarica Mello gratuitamente sul tuo iPhone o iPad e scopri il tuo momento di calma.',
+      title: 'Più calma per te o il tuo piccolo?',
+      subtitle: 'Scarica Mello gratuitamente sul tuo iPhone o iPad.',
     },
     footer: {
-      tagline: 'Il tuo suono per concentrarti o rilassarti.',
+      tagline: 'Suoni per la calma e la concentrazione.',
       app: 'App',
       info: 'Info',
       copyright: '© 2026 Mello. Fatto con amore nei Paesi Bassi.',

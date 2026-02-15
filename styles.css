@@ -5,10 +5,10 @@
 /* CSS Variables */
 :root {
     /* Primary Colors */
-    --mello-green: #A5BEA9;
-    --mello-green-dark: #8BA98F;
-    --mello-green-light: #C5D8C9;
-    --mello-green-glow: rgba(165, 190, 169, 0.4);
+    --mello-green: #CAC4A0;
+    --mello-green-dark: #B0AA86;
+    --mello-green-light: #DDD9C3;
+    --mello-green-glow: rgba(202, 196, 160, 0.4);
     --warm-beige: #F5F0EB;
     --warm-beige-dark: #EDE5DD;
     --deep-text: #2F3A44;
@@ -18,8 +18,8 @@
     --soft-pink: #F4CEC7;
     --soft-pink-glow: rgba(244, 206, 199, 0.3);
     --card-white: #FFFFFF;
-    --border-color: rgba(165, 190, 169, 0.15);
-    --border-color-strong: rgba(165, 190, 169, 0.3);
+    --border-color: rgba(202, 196, 160, 0.15);
+    --border-color-strong: rgba(202, 196, 160, 0.3);
     
     /* Spacing - 8px scale */
     --spacing-xs: 0.5rem;    /* 8px */
@@ -312,7 +312,7 @@ a {
     display: inline-flex;
     align-items: center;
     padding: var(--spacing-xs) var(--spacing-md);
-    background: rgba(165, 190, 169, 0.15);
+    background: rgba(202, 196, 160, 0.15);
     border: 1px solid var(--border-color-strong);
     border-radius: var(--radius-full);
     font-size: var(--font-size-sm);
@@ -543,8 +543,6 @@ a {
     justify-content: center;
     width: 48px;
     height: 48px;
-    background: var(--warm-beige);
-    border-radius: var(--radius-md);
     flex-shrink: 0;
     color: var(--mello-green);
 }
@@ -552,6 +550,13 @@ a {
 .highlight-icon {
     width: 22px;
     height: 22px;
+    flex-shrink: 0;
+}
+
+.highlight-icon-img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
     flex-shrink: 0;
 }
 
@@ -1132,6 +1137,11 @@ a {
     .highlight-icon {
         width: 18px;
         height: 18px;
+    }
+    
+    .highlight-icon-img {
+        width: 36px;
+        height: 36px;
     }
     
     .highlight-title {
